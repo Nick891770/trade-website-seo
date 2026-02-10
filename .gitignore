@@ -1,0 +1,28 @@
+# Elementor exports and WordPress JSON
+elementor-*.json
+*-current.json
+*-updated.json
+*-fixed.json
+*-minified.json
+homepage-links-minified.json
+temp-*.json
+
+# Keep schema examples
+!schema/schema-localbusiness.json
+!schema/schema-faq-homepage.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip

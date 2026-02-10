@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "name": "Laws Electrical Services Pty Ltd",
+  "image": "https://lawselecservices.com/wp-content/uploads/2024/06/Laws-Electrical-Standard-Logo-1-1-scaled.jpg",
+  "url": "https://lawselecservices.com",
+  "telephone": "+61402336372",
+  "email": "nick@lawselecservices.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Brisbane",
+    "addressRegion": "QLD",
+    "postalCode": "4000",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -27.6,
+    "longitude": 152.9
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Brisbane"
+    },
+    {
+      "@type": "City",
+      "name": "Ipswich"
+    },
+    {
+      "@type": "City",
+      "name": "Gold Coast"
+    },
+    "Wacol",
+    "Archerfield",
+    "Richlands",
+    "Rocklea",
+    "Darra",
+    "Acacia Ridge",
+    "Sumner",
+    "Carole Park",
+    "Seventeen Mile Rocks",
+    "Oxley",
+    "Coopers Plains",
+    "Salisbury",
+    "Bundamba",
+    "Riverview",
+    "Redbank",
+    "Goodna",
+    "Springfield"
+  ],
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "07:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "07:00",
+      "closes": "12:00"
+    }
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Electrical Contractor Licence",
+    "identifier": "85763",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Electrical Safety Office Queensland"
+    }
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Master Electricians Australia"
+  },
+  "knowsAbout": [
+    "Industrial electrical maintenance",
+    "Test and tag",
+    "RCD testing",
+    "Emergency lighting testing",
+    "Electrical maintenance contracts",
+    "Machine electrical repairs",
+    "Switchboard upgrades",
+    "Three-phase installations"
+  ],
+  "slogan": "Brisbane's Industrial Maintenance Electricians"
+}

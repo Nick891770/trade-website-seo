@@ -1,0 +1,53 @@
+{
+  "name": "laws-electrical-seo",
+  "description": "SEO, GEO, and organic search optimisation for Laws Electrical Services",
+  "version": "1.0.0",
+  "mcps": {
+    "required": ["wordpress"],
+    "optional": ["firecrawl", "google-search-console", "lighthouse"]
+  },
+  "context": {
+    "business": {
+      "name": "Laws Electrical Services Pty Ltd",
+      "website": "https://lawselecservices.com",
+      "licence": "85763",
+      "abn": "65 628 378 272",
+      "phone": "0402 336 372",
+      "email": "nick@lawselecservices.com",
+      "location": "Brisbane, Queensland, Australia"
+    },
+    "services": {
+      "primary": [
+        "Industrial electrical maintenance",
+        "Commercial electrical maintenance",
+        "Body corporate electrical maintenance",
+        "Electrical maintenance contracts"
+      ],
+      "compliance": [
+        "Test and tag",
+        "RCD testing",
+        "Emergency lighting testing"
+      ],
+      "installations": [
+        "Switchboard upgrades",
+        "Three-phase installations",
+        "Machine wiring",
+        "Lighting installations"
+      ]
+    },
+    "serviceAreas": {
+      "primary": ["Wacol", "Archerfield", "Richlands", "Rocklea", "Darra", "Acacia Ridge"],
+      "secondary": ["Brisbane CBD", "Ipswich", "Springfield", "Logan", "Gold Coast"],
+      "regions": ["Brisbane", "Ipswich", "Gold Coast", "Sunshine Coast"]
+    },
+    "targetMarkets": [
+      "Factories",
+      "Warehouses",
+      "Workshops",
+      "Manufacturing plants",
+      "Body corporate/strata",
+      "Commercial buildings",
+      "Industrial estates"
+    ]
+  }
+}

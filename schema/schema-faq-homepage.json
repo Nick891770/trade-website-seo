@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What areas do you service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are based around Brisbane\u2019s western corridor. Wacol, Archerfield, Richlands, Rocklea, and Darra are our core areas. We also cover Ipswich, Springfield, Goodna, and the wider Brisbane south region. For larger jobs or maintenance contracts, we travel to the Gold Coast and Sunshine Coast as well."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often does electrical equipment need to be tested and tagged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the environment. Under AS/NZS 3760, factories, workshops, and warehouses need testing every 6 months. Construction sites require testing every 3 months. Offices and retail spaces are tested annually."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an electrical maintenance contract?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A maintenance contract means we visit your site on a regular schedule to inspect, test, and maintain your electrical systems. Rather than calling someone when things break, we catch problems early and fix them before they cause downtime. Contract clients also get priority response when breakdowns do happen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We hold Queensland Electrical Contractor Licence #85763 and carry full public liability and professional indemnity insurance. We are also Master Electricians Silver Members."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you do residential work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We do. While industrial maintenance is our main focus, we handle domestic jobs including powerpoint installations, lighting upgrades, switchboard replacements, smoke alarm compliance, and general electrical repairs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer emergency callouts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We operate Monday to Friday 7am to 5pm and Saturday 7am to 12pm. We don\u2019t offer 24-hour callouts, but maintenance contract clients get priority same-day response during business hours."
+      }
+    }
+  ]
+}
