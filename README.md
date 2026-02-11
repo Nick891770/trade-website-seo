@@ -47,6 +47,14 @@ trade-website-seo/
 │       └── electrician-wacol-template.md       # Suburb page template
 ├── redesign/
 │   └── index.html                 # Homepage redesign concept (static HTML/CSS)
+├── performance/
+│   ├── PERFORMANCE-CHECKLIST.md   # Step-by-step performance fix checklist
+│   ├── snippet-1-preconnect-hints.php    # Preconnect hints for Google Fonts/Analytics
+│   ├── snippet-2-font-display-swap.php   # Fix font-display for custom fonts
+│   ├── snippet-3-defer-js.php            # Defer non-critical JavaScript
+│   └── optimised-images/
+│       ├── laws-electrical-logo-400w.webp # Logo: 7.5KB (was 148KB)
+│       └── hero-banner-1200w.webp         # Hero: 116KB (was 3,024KB)
 ├── claude-config/                 # Claude Code configuration (copy to .claude/)
 │   ├── CLAUDE.md                  # Agent context + writing style guide
 │   ├── settings.json              # Project settings + business context
@@ -134,6 +142,18 @@ Over 4 weeks of implementation on the Laws Electrical website:
 Built for Laws Electrical Services, an electrical contracting business in Brisbane. Demonstrates how AI tools can automate local SEO for trade businesses -- the kind of work that SEO agencies charge thousands for but often deliver with generic, cookie-cutter content.
 
 The writing style guide in `claude-config/CLAUDE.md` is worth reading on its own. It includes a banned words list, before/after examples, and a simple test: "Would the business owner actually say this to a client?" If the answer is no, the content gets rewritten.
+
+## TODO -- Performance Quick Wins
+
+Free performance fixes for WordPress/Elementor sites on SiteGround (Nginx). Full checklist in `performance/PERFORMANCE-CHECKLIST.md`.
+
+- [ ] Delete plugin bloat (WooCommerce, LiteSpeed Cache, unused form plugins)
+- [ ] Upload optimised logo and hero images (already converted in `performance/optimised-images/`)
+- [ ] Configure Speed Optimizer by SiteGround (caching, GZIP, minify, defer JS, lazy load)
+- [ ] Install Code Snippets plugin and add PHP snippets (preconnect hints, font-display swap, defer JS)
+- [ ] Install ShortPixel for bulk image compression + WebP conversion
+- [ ] Set explicit image dimensions in Elementor to fix CLS
+- [ ] Purge cache and verify with PageSpeed Insights
 
 ## Adapting for Your Business
 
